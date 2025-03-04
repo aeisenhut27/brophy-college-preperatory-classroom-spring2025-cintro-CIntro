@@ -22,9 +22,11 @@ int main(void) {
   int product = x * y;
   printf("\n\nThe product of the numbers is %i", product);
 
-  // TODO: add the rest of the math operations here (make sure to follow the
-  // same coding structure as above to make it easier to read!):
+  int difference = x - y;
+  printf("\n\nThe difference of the numbers is %i", difference);
 
-  // always return 0; at the end of the main function
+  int quotient = x / y;
+  printf("\n\nThe quotient of the numbers is %i", quotient);
+
   return 0;
 }
